@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+nav{
+    background-color: #3B82F6;
+    text-align: right;
+    padding: 0rem 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.{
+    margin: 0;
+    padding: 0;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    text-align:right;
+    padding: 0rem 1rem;
+}
+.link-head{
+    color: #FEE2E2;
+    text-align: left;
+}
+hower.link-head{
+    color:#FEE2E2 ;
+}
