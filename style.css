@@ -1,3 +1,7 @@
+.{
+    margin: 0;
+    padding: 0;
+}
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
 body{
     font-family: 'PT Sans', sans-serif;
@@ -8,10 +12,7 @@ nav{
     padding: 0rem 1rem;
     border-bottom-left-radius: 1rem;
 }
-.{
-    margin: 0;
-    padding: 0;
-}
+
 .link{
     color: white;
     text-decoration: none;
@@ -24,4 +25,13 @@ nav{
 }
 hower.link-head{
     color:#FEE2E2 ;
+}
+section{
+    background-color: #E5E7EB;
+    color: black;
+    font-weight:bold;
+}
+.sec-head{
+    padding: 0rem 1rem;
+    fo
 }
