@@ -1,15 +1,17 @@
-.{
-    margin: 0;
-    padding: 0;
-}
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap');
 body{
     font-family: 'PT Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
 }
 nav{
     background-color: #3B82F6;
     text-align: right;
-    padding: 0rem 1rem;
+    padding: 1rem 1rem;
     border-bottom-left-radius: 1rem;
 }
 
@@ -23,15 +25,60 @@ nav{
     color: #FEE2E2;
     text-align: left;
 }
-hower.link-head{
-    color:#FEE2E2 ;
+.about-head{
+    padding: 0rem 0rem;
+    
+}
+.bg-img{
+    max-width: 80%;
+    width: 360px;
+    margin: auto;
+    display: block;
+}
+.img-head{
+    text-align: center;
+    color:#3B82F6;
+}
+.img-span{
+    color: #6B7280;
 }
 section{
-    background-color: #E5E7EB;
-    color: black;
-    font-weight:bold;
+    background-color: #F3F4F6;
+    text-align: center;
+    padding: 3rem 4rem;
+    font-family: 'Source Sans Pro', sans-serif;
 }
-.sec-head{
-    padding: 0rem 1rem;
-    fo
+.projects{
+    background-color: white;
+    padding: 1rem 1rem;
 }
+.link-projects{
+   text-decoration: none;
+   color: white;
+   background-color:#3B82F6 ;
+   padding: 0.3rem 1.5rem;
+   border-radius: 16px;
+   display: inline-block;
+}
+.blog-link{
+    text-decoration: none;
+   color:#3B82F6; 
+   padding: 0.3rem 1.5rem;
+   border-radius: 16px;
+   display: inline-block;
+   border: 0.1px solid #3B82F6;
+
+}
+footer{
+    background-color:#3B82F6 ;
+    color: white;
+    text-align: center;
+    padding: 2rem 3rem;
+    border-top-left-radius: 1rem;
+}
+.footer-link{
+    color: white;
+    text-decoration: none;
+    padding: 1rem 1rem;
+}
+
