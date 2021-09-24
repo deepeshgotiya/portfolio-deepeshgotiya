@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
 body{
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
 }
 *{
     margin: 0;
     padding: 0;
 }
 nav{
-    background-color: #3B82F6;
+    background-color: #be185d9f;
     text-align: right;
     padding: 1rem 1rem;
     border-bottom-left-radius: 1rem;
@@ -37,52 +36,54 @@ nav{
 }
 .img-head{
     text-align: center;
-    color:#3B82F6;
+    color:#be185d9f;
 }
 .img-span{
-    color: #6B7280;
+    color: #BE185D;
 }
 section{
     background-color: #F3F4F6;
     text-align: center;
     padding: 3rem 4rem;
-    font-family: 'Source Sans Pro', sans-serif;
+    margin: 1rem;
+    font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
+    border-radius: 1rem;
 }
 .projects{
     background-color: white;
     padding: 1rem 1rem;
 }
-.link-projects{
+.color-link{
    text-decoration: none;
    color: white;
-   background-color:#3B82F6 ;
+   background-color:#be185d9f ;
    padding: 0.3rem 1.5rem;
    border-radius: 16px;
    display: inline-block;
    margin-top: 1rem;
 }
-.blog-link{
+.blank-link{
     text-decoration: none;
-   color:#3B82F6; 
+   color:#be185d9f; 
    padding: 0.3rem 1.5rem;
    border-radius: 16px;
    display: inline-block;
-   border: 0.1px solid #3B82F6;
+   border: 0.1px solid #be185d9f;
    margin-top: 1rem;
 
 }
 footer{
-    background-color:#3B82F6 ;
-    color: white;
+    background-color:#be185d9f ;
+    color: black;
     text-align: center;
     padding: 2rem 3rem;
     border-top-left-radius: 1rem;
 }
-.footer-link{
-    color: white;
-    text-decoration: none;
-    padding: 1rem 1rem;
+.footer-icon{
+    max-width: 5%;
+    height: 2rem;
+    margin: 1rem;
 }
 .para{
     margin: 0.5rem;
@@ -90,4 +91,8 @@ footer{
 .white {
     background-color: white;
 
+}
+.groot-translator{
+    background-color: white;
+    color: black;
 }
